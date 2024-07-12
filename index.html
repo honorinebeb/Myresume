@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Brand</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastify-js/1.11.1/toastify.min.css">
+    
+    
+    
+</head>
+<body id="home">
+
+    <nav>
+        <ul class="sidebar">
+            <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            
+            
+            <li onclick="hideSidebar()"><a href="/index.html#about">About Us</a></li>
+            <li onclick="hideSidebar()"><a href="/index.html#skills">Skills</a></li>
+            <li onclick="hideSidebar()"><a href="/index.html#portfolio">Portfolio</a></li>
+            <li onclick="hideSidebar()"><a href="/index.html#blog">Blog</a></li>
+            <li onclick="hideSidebar()"><a href="/index.html#contact">Contact Us</a></li>
+            <li onclick="hideSidebar()"><a href="/index.html#subscribe">Subscribe</a></li>
+            <li onclick="hideSidebar()"><a href="./login/login.html">Register</a></li>
+            
+
+        </ul>
+        <ul class="nav">
+            <li><a  class="active"><span style="color: black;">KL</span>BRAND</a></li>
+            <li class="hideOnMobile"><a href="#home">Home</a></li>
+            <li class="hideOnMobile"><a href="#about">About Us</a></li>
+            <li class="hideOnMobile"><a href="#skills">Skills</a></li>
+            <li class="hideOnMobile"><a href="#portfolio">Portfolio</a></li>
+            <li class="hideOnMobile"><a href="#blog">Blog</a></li>
+            <li class="hideOnMobile"><a href="#contact">Contact Us</a></li>
+            <li class="hideOnMobile"><a href="#form-2">Subscribe</a></li>
+            <li class="hideOnMobile"><a href="./login/login.html">Register</a></li>
+            <li class="menu"onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+
+    <div class="showcase">
+        
+        
+        
+        <div class="showcase-content">
+            <div class="showcase-text">
+                <div class="text-1">Hello, my name is</div></br>
+                <div class="text-2">Gakuru Honorine</div>
+                <div class="text-3">And I'm a Software Engineer<span class="typing-1"></span></div>
+                <a href="HonorineCV og.pdf" download="Gakuru Honorine's CV" class="btn-md">Download CV</a>
+                
+            </div>
+           
+        </div> 
+        <div id="hero-img">
+            <img src="./images/lili.jpg">
+        </div>
+    </div>
+    
+    <!-- About Section Styling -->
+
+    <section id="about" class="about" >
+       
+        <div class="about-container">
+            <h5 class="title text-center m-heading text-secondary" style="margin-top: 50px;">ABOUT ME</h5>
+            <div class="about-content">
+                <div class="photo" style="border-radius: 45px";>
+                    <img src="./images/sifa.jpeg">
+                </div> 
+                <div class="column right">
+                    <div class="text">I'm Gakuru Honorine</div>
+                    <p>  I’m a software Engineer.
+                        I am very passionate about using technology to solve every real life problems 
+                        especially in agriculture, Education and Health.
+                        I am an advocate for women empowerment and I’m also a self motivated 
+                        person who is always ready and open for new experience.</p>
+                    <p>
+                       
+                    </p>
+                        
+                </div>
+               
+            </div>
+        </div>
+    </section> 
+
+   
+    
+    <!-- Skills Section Styling -->
+
+    <section id="skills" class="skills">
+       
+        <div class="container">
+            <h5 class="title text-center m-heading text-secondary" style="margin-top: 45px;">MY SKILLS</h5>
+            <div class="skill-content">
+               
+                <div class="work">
+                    <img src="./images/html.png">
+                    <div class="layer">
+                        <h3>HTML:</h3>
+                        <p>HyperText Markup Language or HTML
+                           is the standard markup language for 
+                           documents designed to be displayed in
+                            a web browser.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/css.png">
+                    <div class="layer">
+                        <h3>Css:</h3>
+                        <p>stands for Cascading Style Sheets·
+                             CSS describes how HTML elements 
+                             are to be displayed on screen, 
+                             paper, or in other media .</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/js.png">
+                    <div class="layer">
+                        <h3>Javascript:</h3>
+                        <p> JS, is a programming language 
+                            that is one of the core technologies of the World 
+                            Wide Web, alongside HTML and CSS.</p>
+                    </div>
+                </div>
+               
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <!-- PORTFOLIO section -->
+    <section id="portfolio">
+        <div class="port-container">
+            <h5 class="title text-center m-heading text-secondary">Portfolio</h5>
+            <div class="row">
+                <div class="port-cards">
+                    <div class="card portfolioContent">
+                        <img class="card-img" src="./images/alexander-shatov-fRjjnN_8njo-unsplash.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="cards-title">SnapChat Clone</h4>
+                            <p class="card-text">A "Snapchat clone project" typically refers to a software development project aimed at creating an application that replicates the core functionalities and features of Snapchat.</p>
+                            <div class="text-center">
+                                <a href="https://snap-chat-clone-five.vercel.app/" class="btn btn-success">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="port-cards">
+                    <div class="card portfolioContent">
+                        <img class="card-img" src="./images/alexander-shatov-fRjjnN_8njo-unsplash.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="cards-title">AirBnB Clone</h4>
+                            <p class="card-text">Airbnb clone" refers to a software project aimed at creating a platform similar to Airbnb, a popular online marketplace for lodging and vacation rentals. </p>
+                            <div class="text-center">
+                                <a href="https://github.com/honorinebeb/alu-AirBnB_clone_v2.git" class="btn btn-success">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="port-cards">
+                    <div class="card portfolioContent">
+                        <img class="card-img" src="images/alexander-shatov-fRjjnN_8njo-unsplash.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="cards-title">Product Landing Page</h4>
+                            <p class="port-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+                            <div class="text-center">
+                                <a href="#https://github.com/honorinebeb/HTML_CSS_Contest_Group18.git" class="btn">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+           
+    </section>
+
+ <!-- blogs -->
+ <section id="blog">
+    
+      
+    <div class="container">
+        <h5 class="title text-center m-heading text-secondary">Blog</h5>
+        <div id="blogs-list" class="row">
+            <div id="no-blogs-message" style="display: none;">
+                No blogs available..
+                
+              </div>
+            <!-- <div class="blog-cards">
+                <div class="card">
+                    <img class="card-img" src="./images/Andela-pic.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="cards-title">Embarking on a Transformative Journey at Andela</h4>
+                        <p style="color: rgb(142, 143, 144);">Published at: 19/3/2024</p>
+                        <div class="text-center">
+                            <a href="./login/blogs.html" class="btn ">ReadMore</a>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- <div class="blog-cards">
+                <div class="card ">
+                    <img class="card-img" src="images/ales-nesetril-Im7lZjxeLhg-unsplash.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="cards-title">Reason of investing in AgriTech</h4>
+                        <p style="color: rgb(142, 143, 144);">Published at: 3/4/2024</p>
+                        <div class="text-center">
+                            <a href="#" class="btn">ReadMore</a>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- <div class="blog-cards">
+                <div class="card">
+                    <img class="card-img" src="images/library.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="cards-title">UI/UX design</h4>
+                        <p style="color: rgb(142, 143, 144);">Published at: 3/4/2024</p>
+                        <div class="text-center">
+                            <a href="#" class="btn">ReadMore</a>
+                        </div>
+                    </div>
+                </div>
+            </div>  -->
+        </div>
+            
+
+    </div>
+</section>  
+
+
+
+<!-- Contact Me Section -->
+<div id="toast-container" class="toast-container"></div>
+<section class="contact" id="contact">
+        <div class="container">
+            <h5 class="title text-center m-heading text-secondary">CONTACT ME</h5>
+            <div class="contact-content">
+                <div class="column left">
+                    <form id="form" action=" " method="POST">
+                        <div class="form-group">
+                            <label>FullName</label>
+                            <input type="text" name="Name" id="name" placeholder="Full Name" >                        
+                            <div class="error"></div>
+                            <label>Email</label>
+                            <input type="email" name="Email" id="email" placeholder="Your Email">                        
+                            <div class="error"></div>
+                            <label>Message</label>
+                            <textarea name="Message" id="message" placeholder="Your Message"></textarea>
+                          
+                            <button type="submit" class="btn-md" onclick="sendMessage()">Send Message</button>
+                        </div>
+                    </form>
+                  
+
+                </div>
+                <div class="column right">
+                   <h2>Contact Info</h2>
+                   <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, voluptatum! Ullam ab neque aut nostrum. Cumque officia cupiditate deleniti quam!</p>
+                   <div class="items">
+                       <div class="item">
+                            <i class="bx bxs-envelope bx-xs"></i>
+                            <div class="text">
+                                 <h3>Email</h3>
+                                <p><span>ghonorine2001@gmail.com</span></p>
+                             </div>
+                       </div>
+                       <div class="item">
+                            <i class="bx bxs-phone bx-xs"></i>
+                            <div class="text">
+                                <h3>Phone</h3>
+                                <p><span>+250 783309759</span></p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <i class="bx bxs-map bx-xs"></i>
+                            <div class="text">
+                                <h3>Address</h3>
+                                <p><span>KIGALI, Gasabo</span>
+                            </div>
+                        </div>
+                       </div>
+                       
+                       </div>
+                   </div>
+                </div>
+                
+        </div>
+
+        <form id="form-2">
+            <h2 style="color: white; padding-bottom:15px">Subscribe to my NewsLetters</h2>
+            <label>Email</label>
+            <input placeholder="Email Adress" id="emailz" type="email">
+            
+            <button type="submit" class="btn">Subscribe</button>
+        </form>
+</section>
+
+
+<footer id="footer">
+<p>&copy; 2021. Designed by Gakuru Honorine. All Rights Reserved.</p>
+</footer>
+<script src="app.js"></script> 
+<script src="/login/subscribe.js"></script>
+<script src="/login/usermessage.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastify-js/1.11.1/toastify.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded",async()=>{
+    const blogs = document.getElementById("blogs-list");
+    const noBlogsMessage = document.getElementById("no-blogs-message");
+    console.log(noBlogsMessage);
+    try{
+        response = await fetch('https://mybrand-backend-v82m.onrender.com/api/v1/blogs',{
+            method: 'GET',
+        });
+        if(!response.ok){
+            throw new Error('no response...')
+        }
+        
+        const blogData = await response.json();
+        
+        console.log(blogData)
+        if(blogData.allblogs.length ===0){
+            noBlogsMessage.style.display = "block";
+            
+        }else{
+            noBlogsMessage.style.display = "none";
+        
+        blogData.allblogs.forEach((blog)=>{
+            const blogContainer = document.createElement("div");
+            blogContainer.innerHTML=`
+            <div class="blog-cards">
+                <div class="card">
+                    <img class="card-img" src="https://mybrand-backend-v82m.onrender.com/uploads/${blog.image}" alt="Card image"  style="max-width:400px; height:300px; flex: 0 0 30%; ">
+                    <div class="card-body">
+                        <h4 class="cards-title">${blog.title}</h4>
+                        <p style="color: rgb(142, 143, 144);">Published at: ${new Date(blog.publishedDate).toLocaleDateString('en-US')}</p>
+                        <div class="text-center">
+                           <button style="padding:10px;margin-top:10px;border-radius:5px;"
+                           onclick="navigateToBlog('${blog._id}')">READMORE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+        blogs.appendChild(blogContainer)
+        
+        });
+    }
+        
+        
+    }catch(error){
+            console.error(error)
+    }
+   
+  })
+  const navigateToBlog = (blogId)=>{
+  window.location.href = `/login/blogs.html?id=${blogId}`;
+  
+}
+
+  
+
+
+</script>
+</body>
+</html>
